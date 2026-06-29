@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Multicolumn",
+    "image": "https://cdn.enhancv.com/images/1098/i/aHR0cHM6Ly9jZG4uZW5oYW5jdi5jb20vcHJlZGVmaW5lZC1leGFtcGxlcy9DQzluTEdDZ1hpT1ZGTVVmTXRCd01yMWJZNTJMN2RDcUFxU2VlZ0lGL2ltYWdlLnBuZw~~.png"
+  },
+  {
+    "name": "Classic",
+    "image": "https://cdn.enhancv.com/images/1098/i/aHR0cHM6Ly9jZG4uZW5oYW5jdi5jb20vcHJlZGVmaW5lZC1leGFtcGxlcy9ENkJxakN0aTFGRGxSbGhjNENkNGVWaW1iZktyU3JNVmFXSnNncEl4L2ltYWdlLnBuZw~~.png"
+  },
+  {
+    "name": "High Performer",
+    "image": "https://cdn.enhancv.com/images/1098/i/aHR0cHM6Ly9jZG4uZW5oYW5jdi5jb20vcHJlZGVmaW5lZC1leGFtcGxlcy9PRFpWbFBaWWNIMTlHcnBRd2N6aGdDSklDZUIxWTV6aDgxUGoxd1ZJL2ltYWdlLnBuZw~~.png"
+  },
+  {
+    "name": "Minimal",
+    "image": "https://cdn.enhancv.com/images/1098/i/aHR0cHM6Ly9jZG4uZW5oYW5jdi5jb20vcHJlZGVmaW5lZC1leGFtcGxlcy9MNXpGSXNITFNUcTF4VU9xN1hJUGZCOVhmZ0F3c2FGSG05UWV3aEYxL2ltYWdlLnBuZw~~.png"
+  },
+  {
+    "name": "Double Column",
+    "image": "https://cdn.enhancv.com/images/1098/i/aHR0cHM6Ly9jZG4uZW5oYW5jdi5jb20vcHJlZGVmaW5lZC1leGFtcGxlcy9pSXNiWkRxTnpHSkhWUmVzdzltQjhhdlU5TnIxcW1QOGF1aGIzYXdJL2ltYWdlLnBuZw~~.png"
+  },
+  {
+    "name": "Ivy League",
+    "image": "https://cdn.enhancv.com/images/1098/i/aHR0cHM6Ly9jZG4uZW5oYW5jdi5jb20vcHJlZGVmaW5lZC1leGFtcGxlcy9EdUwwR3pyamhqWkhyMG13YndnUGl0TUozWjIwaFZtWUhRY2l6NnJtL2ltYWdlLnBuZw~~.png"
+  },
+  {
+    "name": "Elegant",
+    "image": "https://cdn.enhancv.com/images/1098/i/aHR0cHM6Ly9jZG4uZW5oYW5jdi5jb20vcHJlZGVmaW5lZC1leGFtcGxlcy8wakZ6ZHg4TnJRbTdVNHI3YTl3eWRxVnV1SkRGTzg2MTMyTkc5aVB6L2ltYWdlLnBuZw~~.png"
+  },
+  {
+    "name": "Contemporary",
+    "image": "https://cdn.enhancv.com/images/1098/i/aHR0cHM6Ly9jZG4uZW5oYW5jdi5jb20vcHJlZGVmaW5lZC1leGFtcGxlcy91MGdNWVpUc1JkdjVqUDU4U3lVd3QyZEExMlhPVkttcUk0YXg0ZHdUL2ltYWdlLnBuZw~~.png"
+  },
+  {
+    "name": "Modern",
+    "image": "https://cdn.enhancv.com/images/1098/i/aHR0cHM6Ly9jZG4uZW5oYW5jdi5jb20vcHJlZGVmaW5lZC1leGFtcGxlcy9zVWI0b3E3MDU5UUJpMzBMMnpqa0ZxOW8wdFdnUkJramtjcHFiMklhL2ltYWdlLnBuZw~~.png"
+  },
+  {
+    "name": "Timeline",
+    "image": "https://cdn.enhancv.com/images/1098/i/aHR0cHM6Ly9jZG4uZW5oYW5jdi5jb20vcHJlZGVmaW5lZC1leGFtcGxlcy9WS05VTmExbDZIRjhSTjdtNU1mNWFnMVpUVHNLY0FYUXo0a2dNNk1SL2ltYWdlLnBuZw~~.png"
+  },
+  {
+    "name": "Creative",
+    "image": "https://cdn.enhancv.com/images/1098/i/aHR0cHM6Ly9jZG4uZW5oYW5jdi5jb20vcHJlZGVmaW5lZC1leGFtcGxlcy9PV01KWWpJQTY1N2VIVHlQOFZ6VVZGbHVCYTY5VnNKRXZsd1lkRGs2L2ltYWdlLnBuZw~~.png"
+  },
+  {
+    "name": "Stylish",
+    "image": "https://cdn.enhancv.com/images/1098/i/aHR0cHM6Ly9jZG4uZW5oYW5jdi5jb20vcHJlZGVmaW5lZC1leGFtcGxlcy9PMXVaejFmZ09ialVJRDQ0ZDNlQmFHeXhSbGlpNGwySU9sZ0ExcVlWL2ltYWdlLnBuZw~~.png"
+  },
+  {
+    "name": "Single Column",
+    "image": "https://cdn.enhancv.com/images/1098/i/aHR0cHM6Ly9jZG4uZW5oYW5jdi5jb20vcHJlZGVmaW5lZC1leGFtcGxlcy92S09jYmlpSlhTeTdHdDhmdXFZSUpXdW1VYnVyU2RsR0UyYmgyR3p6L2ltYWdlLnBuZw~~.png"
+  },
+  {
+    "name": "Compact",
+    "image": "https://cdn.enhancv.com/images/1098/i/aHR0cHM6Ly9jZG4uZW5oYW5jdi5jb20vcHJlZGVmaW5lZC1leGFtcGxlcy9TMnFlclZyRXJJMHR2VlpMS0pPbXFSUlJTSTBoRnE2QmZhbkU3OXFaL2ltYWdlLnBuZw~~.png"
+  }
+]

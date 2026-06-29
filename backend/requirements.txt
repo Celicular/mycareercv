@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+sqlalchemy
+pydantic[email]
+bcrypt
+python-jose[cryptography]
+python-multipart
+PyMuPDF
+python-dotenv
+requests
+jsonschema
+Pillow
+numpy

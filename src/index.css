@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@100..900&family=Outfit:wght@100..900&family=Roboto:wght@100;300;400;500;700;900&family=Roboto+Mono:wght@100..700&family=Montserrat:wght@100..900&family=Playfair+Display:wght@400..900&family=Lora:wght@400..700&family=Open+Sans:wght@300..800&family=Lato:wght@100..900&family=Poppins:wght@100..900&family=Raleway:wght@100..900&family=Merriweather:wght@300..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-brand-orange: #D84315;
+  --color-brand-pink: #FFB4D1;
+  --color-brand-lilac: #B68BFF;
+  --color-brand-sand: #D1C7B3;
+  --color-brand-peach: #FFC1A1;
+  /* Soft dark gray for the hero and footer, peaceful to the eyes */
+  --color-brand-dark: #232325;
+  /* Pure white for the 'ribbon' elements inside */
+  --color-brand-light: #FFFFFF;
+  /* Soft off-white for the page background so white blocks pop */
+  --color-brand-offwhite: #F4F4F6;
+
+  --font-heading: 'Anton', sans-serif;
+  --font-body: 'Inter', sans-serif;
+
+  --animate-marquee: marquee 30s linear infinite;
+
+  @keyframes marquee {
+    0% {
+      transform: translateX(0%);
+    }
+
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+}
+
+@layer base {
+  body {
+    font-family: var(--font-body);
+    background-color: var(--color-brand-offwhite);
+    color: var(--color-brand-dark);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-heading);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+}
+
+/* ── Resume Builder wizard — override global heading styles ─────────────── */
+/* Hero questions should use Inter (readable sentence case, not Anton all-caps) */
+.builder-scroll h1 {
+  font-family: var(--font-body);
+  text-transform: none;
+  letter-spacing: -0.03em;
+  font-weight: 800;
+}
+
+/* ── Premium custom scrollbar for the builder wizard ────────────────────── */
+.builder-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 90, 54, 0.45) transparent;
+}
+
+.builder-scroll::-webkit-scrollbar {
+  width: 6px;
+}
+
+.builder-scroll::-webkit-scrollbar-track {
+  background: transparent;
+  margin-block: 8px;
+}
+
+.builder-scroll::-webkit-scrollbar-thumb {
+  background: rgba(255, 90, 54, 0.35);
+  border-radius: 999px;
+  transition: background 0.2s;
+}
+
+.builder-scroll::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 90, 54, 0.7);
+}
+
+.builder-scroll::-webkit-scrollbar-thumb:active {
+  background: rgba(255, 90, 54, 0.9);
+}
+
+/* ── Template Editor side panel scrollbars ───────────────────────────────── */
+.editor-panel-scroll {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.editor-panel-scroll::-webkit-scrollbar {
+  display: none;
+}
