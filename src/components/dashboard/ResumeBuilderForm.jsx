@@ -7,6 +7,7 @@ import {
   FolderGit2, Award, BookOpen, Trophy, Heart,
   Save, Loader2, Check, SkipForward, Camera, LayoutTemplate, Image, Sparkles
 } from 'lucide-react';
+import { API_BASE } from '../../api/axiosClient';
 import { saveResume, uploadPhoto } from '../../api/resumeApi';
 import { listTemplates } from '../../api/templateApi';
 import AIEnhancementModal from './AIEnhancementModal';
@@ -441,7 +442,7 @@ const ProfilePicStep = ({ form, setField }) => {
     <div className="flex flex-col items-center gap-6">
       <div className="relative w-40 h-40 rounded-full border-4 border-white/10 bg-white/5 flex flex-col items-center justify-center overflow-hidden group">
         {form.profile_pic ? (
-          <img src={import.meta.env.VITE_API_BASE_URL ? import.meta.env.VITE_API_BASE_URL.replace('/api', '') + form.profile_pic : `http://localhost:8000${form.profile_pic}`} alt="Profile" className="w-full h-full object-cover" />
+          <img src={`${API_BASE}${form.profile_pic}`} alt="Profile" className="w-full h-full object-cover" />
         ) : (
           <User size={48} className="text-white/20" />
         )}
