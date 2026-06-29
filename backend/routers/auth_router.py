@@ -46,7 +46,11 @@ def delete_current_user(request: Request, response: Response, db: Session = Depe
     db.commit()
     
     # Clear the cookie
-    response.delete_cookie("access_token")
+    response.delete_cookie(
+        "access_token",
+        secure=True,
+        samesite="none"
+    )
     return {"message": "Account deleted successfully"}
 
 
@@ -84,7 +88,7 @@ def register(user: schemas.UserCreate, response: Response, db: Session = Depends
         value=access_token,
         httponly=True,
         secure=True,
-        samesite="lax",
+        samesite="none",
         max_age=auth.ACCESS_TOKEN_EXPIRE_MINUTES * 60
     )
     
@@ -110,7 +114,7 @@ def login(user: schemas.UserLogin, response: Response, db: Session = Depends(dat
         value=access_token,
         httponly=True,
         secure=True,
-        samesite="lax",
+        samesite="none",
         max_age=auth.ACCESS_TOKEN_EXPIRE_MINUTES * 60
     )
     
@@ -119,7 +123,11 @@ def login(user: schemas.UserLogin, response: Response, db: Session = Depends(dat
 
 @router.post("/logout")
 def logout(response: Response):
-    response.delete_cookie("access_token")
+    response.delete_cookie(
+        "access_token",
+        secure=True,
+        samesite="none"
+    )
     return {"message": "Logged out successfully"}
 
 @router.post("/forgot-password")
